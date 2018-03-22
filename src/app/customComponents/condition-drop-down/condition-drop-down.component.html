@@ -1,0 +1,6 @@
+<div ngbDropdown class="d-inline-block">
+  <button class="btn btn-outline-primary" ngbDropdownToggle>{{  selectedCondition }}</button>
+  <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+    <button class="dropdown-item" *ngFor="let condition of mathematicalConditions" (click)="conditionChanged($event)">{{ condition }}</button>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+<div ngbDropdown class="d-inline-block">
+  <button class="btn btn-outline-primary" ngbDropdownToggle>{{  selectedCurrency }}</button>
+  <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+    <button class="dropdown-item" *ngFor="let currency of supportedCryptocurrencies" (click)="clickFun($event)">{{ currency }}</button>
+  </div>
+</div>

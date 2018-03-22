@@ -1,0 +1,19 @@
+.considered-amount-row {
+  padding-bottom: 10px;
+}
+
+.considered-amount-row .price {
+  margin-right: 5px;
+}
+
+.condition-row {
+  padding-bottom: 10px;
+}
+
+.condition-row .btn-outline-primary {
+  margin-right: 5px;
+}
+
+.add-button {
+  margin-right: 7px;
+}
